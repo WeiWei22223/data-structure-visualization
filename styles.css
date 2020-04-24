@@ -1,0 +1,160 @@
+/*
+  Name: Wei Fan
+  Date: 04.23.2020
+  Section: CSE 154 AB (TA:Shriya Kurpad)
+  This is the styles.css page for web development homework, data structure visualization.
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("img/flower.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+header, header section, footer, main article, #menu section:last-child, .card, .inner {
+  display: flex;
+}
+
+header, footer, main article {
+  height: 100vh;
+}
+
+h1, h2, h3, footer p:nth-child(3) {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+header, #menu, footer {
+  align-items: center;
+}
+
+header {
+  flex-direction: row;
+}
+
+header h1 {
+  font-size: 5vw;
+  margin-bottom: 0px;
+}
+
+header section, #menu section {
+  width: 50%;
+}
+
+header section, .block {
+  flex-direction: column;
+}
+
+header section:first-child > p {
+  margin-top: 0px;
+}
+
+#menu {
+  background-color: rgba(54, 48, 98, 0.6);
+  text-align: center;
+}
+
+#menu img, .card {
+  width: 40%;
+}
+
+#menu h2 {
+  font-size: 3vw;
+  margin-bottom: 0px;
+}
+
+#menu:first-child > section:last-child {
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 30vh;
+  background-color: rgba(32, 64, 81, 0.5);
+  align-content: space-around;
+}
+
+.card p, h3, footer {
+  text-align: center;
+}
+
+.block {
+  margin: 3vh;
+  background-color: black;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+.inner {
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.inner section {
+  width: 33%;
+  padding: 1vh;
+}
+
+#array span {
+  color: #98d6ea;
+}
+
+#info {
+  height: 80vh;
+  border: 1px solid white;
+}
+
+footer {
+  background-color: rgba(32, 64, 81, 0.3);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer button, footer > p:last-child {
+  padding: 1vh;
+}
+
+footer button {
+  margin-top: 4vh;
+}
+
+footer button:hover {
+  background-color: rgba(32, 64, 81, 0.5);
+}
+
+footer figure {
+  width: 18vw;
+  height: 30vh;
+  border-radius: 50%;
+  background: linear-gradient(#fde2e2, #ffb6b6);
+  padding: 5vh;
+}
+
+footer img {
+  width: 15vw;
+}
+
+footer p:nth-child(3) {
+  padding: 10px;
+  font-size: 4.5vw;
+}
+
+footer > p:last-child {
+  width: 90%;
+  background-color: #222831;
+}
+
+a {
+  color: #fff0f5;
+}
+
+a:hover {
+  background-color: #ff7272;
+}

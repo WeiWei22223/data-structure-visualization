@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--
+  Name: Wei Fan
+  Date: 04.23.2020
+  Section: CSE 154 AB (TA:Shriya Kurpad)
+
+  This is the index.html page for my web development homework. It includes a skeleton of
+  data structure visualization webpage.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Data Structure Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+      <header>
+        <section>
+          <h1>Data Structure Visualization</h1>
+          <p>
+            This website helps you to visualize some basic data Structures! Scroll down to see
+            content.
+          </p>
+        </section>
+
+        <section>
+          <p>
+            This website is work in progress. The ArrayList, Stack, and Queue pages are work in
+            progress.
+          </p>
+        </section>
+      </header>
+
+      <main>
+        <article id="menu">
+          <section>
+            <img src="https://media.giphy.com/media/H4Evz4SAymjHqm5wjF/giphy.gif" alt="bubble">
+            <h2>Available Data Structures</h2>
+            <p>
+              Available data structure lists on the left. Bubble image from Pusheen in
+              <a href="https://giphy.com/stickers/pink-mermaid-pusheen-H4Evz4SAymjHqm5wjF">
+              GIPHY</a>.
+            </p>
+          </section>
+
+          <section>
+            <section class="card">
+              <p>Array</p>
+            </section>
+
+            <section class="card">
+              <p>ArrayList</p>
+            </section>
+
+            <section class="card">
+              <p>Stack</p>
+            </section>
+
+            <section class="card">
+              <p>Queue</p>
+            </section>
+          </section>
+        </article>
+
+        <article class="block">
+          <h3>Array</h3>
+          <section class="inner">
+            <section id="array">
+              <p>
+                Enter an array name, array size, and array type. An array size must be a positive
+                integer smaller than 10. This website supports array type include
+                <span>String</span> and <span>int</span>. Please make sure the name of the array
+                is less than <strong>10</strong> characters and does not contain any space.
+              </p>
+              <label for="name">Name of the array:</label>
+              <input id="name" type="text">
+              <br>
+              <label for="type">Select the type:</label>
+              <select id="type">
+                <option value="int">int</option>
+                <option value="str">String</option>
+              </select>
+              <br>
+              <label for="size">Size of an array:</label>
+              <input id="size" type="text">
+              <br>
+              <button id="submit">Submit</button>
+              <button id="clear">Clear</button>
+            </section>
+            <section id="info"></section>
+            <section id="plot"></section>
+          </section>
+        </article>
+
+        <article class="block">
+          <h3>ArrayList</h3>
+          <section class="inner">
+            <p>Click the button to create a new ArrayList.</p>
+            <button>Create an arrayList</button>
+          </section>
+        </article>
+
+        <article class="block">
+          <h3>Stack</h3>
+          <section class="inner">
+            <p>Click the button to create a new Stack.</p>
+            <button>Create a stack</button>
+          </section>
+        </article>
+
+        <article class="block">
+          <h3>Queue</h3>
+          <section class="inner">
+            <p>Click the button to create a new Queue.</p>
+            <button>Create a queue.</button>
+          </section>
+        </article>
+      </main>
+
+      <footer>
+        <p>Click Pusheen to change to another Pusheen!</p>
+        <figure>
+          <img id="pusheen" src="https://media.giphy.com/media/w9d2ml2T0mWbL9aG1u/giphy.gif"
+          alt="pusheen">
+          <figcaption>
+            Gif from Pusheen in <a href="https://giphy.com/stickers/kawaii-pusheen-pushen-w9d2ml2T0mWbL9aG1u">
+              GIPHY</a>
+          </figcaption>
+        </figure>
+        <p>Thanks for using this site!</p>
+        <p>
+          Part of this page &copy;2020 Wei. The flower image comes from Lisa Fotios from
+          <a href="https://www.pexels.com/photo/pink-flowers-photograph-1083822/">Pexels</a>.
+          All other attributions cited in page source.
+        </p>
+      </footer>
+  </body>
+</html>
