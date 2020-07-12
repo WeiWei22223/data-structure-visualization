@@ -29,8 +29,16 @@
       <button>Clear</button>
     </section>
 
+    <section id=arr-info>
+    </section>
+
+    <section id=history>
+    </section>
+
     <section id="function">
-      Create a new array:
+      <h2>Functions</h2>
+
+      Create an array:
       <form>
         <label for="arr-name">Array name:</label>
         <input type="text" id="arr-name" name="arr-name">
@@ -38,8 +46,24 @@
         <input type="number" id="arr-size" name="arr-size" min="1" max="50">
         <label for="arr-type">Type:</label>
         <input type="text" id="arr-type" name="arr-type">
+        <div id=init-value>
+        </div>
         <input type="submit" value="Create">
       </form>
+
+      <div id=other-func class="hidden">
+        Print the array in toString format:
+        <button>Print the array</button>
+        <br>
+        Check if array contains a certain value:
+        <form>
+          <label for="check-name">Array name:</label>
+          <input type="text" id="check-name" name="check-name">
+          <label for="check-value">Value:</label>
+          <input type="text" id="check-value" name="check-value">
+          <input type="submit" value="Check">
+        </form>
+      </div>
     </section>
 
   </body>
